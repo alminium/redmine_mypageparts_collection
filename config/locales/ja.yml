@@ -10,4 +10,5 @@ ja:
     recent_status_changes: "最近の状態の変更"
     time_entry_overview: "時間入力の概要"
     user_queries: "ユーザクエリ"
+    leaved_issues: "放置されたチケット(1週間以上)"
     messages_posted_in_the_last_week_on_assigned_projects: "担当するプロジェクトの過去1週間の活動"
