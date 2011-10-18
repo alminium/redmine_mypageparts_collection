@@ -1,5 +1,5 @@
 <% conditions = { :status_id => 3 } %>
-<h3><%= l(:label_reported_issues_to_accept) %> (<%= Issue.visible.count(:conditions => conditions) %>)</h3>
+<h3><%= l(:issues_to_accept) %> (<%= Issue.visible.count(:conditions => conditions) %>)</h3>
 
 <% reported_issues = Issue.visible.find(:all, 
                                 :conditions => conditions,
